@@ -1,5 +1,3 @@
-
-
 import random
 
 
@@ -14,7 +12,7 @@ while not adivinado:
     if not cant_intentos < cant_max_intentos:
         print("Game Over! No has podido adivinar el numero secreto dentro de los 5 intentos")
         break
-    
+
     entrada = input("Introduce un numero del 1 al 99: ")
     numero = int(entrada)
 
@@ -27,4 +25,3 @@ while not adivinado:
         print("El numero es menor al ingresado!")
 
     cant_intentos += 1
-
